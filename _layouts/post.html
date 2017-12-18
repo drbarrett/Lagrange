@@ -10,10 +10,7 @@ layout: default
   <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
 {% endif %}
 
-{{ content }}
-
 <span class="post-date">
-  Written on
   {% assign d = page.date | date: "%-d"  %}
   {{ page.date | date: "%B" }}
   {% case d %}
@@ -22,15 +19,11 @@ layout: default
     {% when '3' or '23' %}{{ d }}rd
     {% else %}{{ d }}th{% endcase %},
   {{ page.date | date: "%Y" }}
-  by
-  {% if page.author %}
-    {{ page.author }}
-  {% else %}
-    {{ site.data.authors.primary.name }}
-  {% endif %}
 </span>
 
-{% include social-sharing.html %}
+{{ content }}
+
+<hr/>
 
 {% include related-posts.html %}
 

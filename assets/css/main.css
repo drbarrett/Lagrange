@@ -151,7 +151,7 @@ blockquote {
 }
 
 .related {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .related-posts {
@@ -266,6 +266,7 @@ code {
 
 code {
     padding: 1px 5px;
+    line-height: 1.2;
 }
 
 pre {
