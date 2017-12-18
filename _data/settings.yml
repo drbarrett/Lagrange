@@ -12,7 +12,7 @@ disqus:
 
 menu:
 - {name: 'about', path: 'menu', url: 'about.html'}
-- {name: 'posts', path: 'menu', url: 'posts.html'}
+- {name: 'archive', path: 'menu', url: 'archive.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
